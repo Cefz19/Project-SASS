@@ -66,10 +66,45 @@ article button {
 }
 
 section {
+  width: auto;
+  height: auto;
+  background-color: #FFEFE7;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6ABA;
+  font-size: 2em;
+}
+section .healthcare h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healthcare .card-section {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+section .healthcare .card-section .product-card {
+  width: 14vw;
+  height: 45vh;
+  background-color: #FFDAC6;
+  color: #7C6ABA;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .healthcare .card-section .product-card .product-img {
   width: 100%;
   height: auto;
-  background-color: gold;
-  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .healthcare .card-section .product-card .product-img img {
+  width: 13vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
 }
 
 footer {
